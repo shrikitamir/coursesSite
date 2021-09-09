@@ -1,0 +1,15 @@
+<app-lessons-list
+  [lessons]="courseLessons"
+  (selected)="selectLesson($event)"
+></app-lessons-list>
+<mat-card>
+  <mat-card-header>
+    <mat-card-title> Debug </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <span *ngIf="currentLesson; else noCurrentLesson">
+      {{ currentLesson | json }}
+    </span>
+    <ng-template #noCurrentLesson> Select a lesson </ng-template>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,32 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Angular Fundamentals",
+      "description": "Angular Course",
+      "percentComplete": 86,
+      "favorite": false
+    },
+    {
+      "id": 2,
+      "title": "Computer Science Intro",
+      "description": "Complete intro to Computer Science from Brian Holt",
+      "percentComplete": 38,
+      "favorite": true
+    },
+    {
+      "id": 3,
+      "title": "NodeJS",
+      "description": "NodeJS course from Scott Moss",
+      "percentComplete": 69,
+      "favorite": true
+    },
+    {
+      "id": 4,
+      "title": "JavaScript - The Hard Parts",
+      "description": "JavaScript The Hard Parts from Will Sentance",
+      "percentComplete": 100,
+      "favorite": true
+    }
+  ]
+}
